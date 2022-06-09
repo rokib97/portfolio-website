@@ -1,64 +1,77 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const navbarItems = (
+    <>
+      <li className="mx-auto lg:mr-4">
+        <a href="#home">Home</a>
+      </li>
+      <li className="mx-auto lg:mr-4">
+        <a href="#services">Projects</a>
+      </li>
+      <li className="mx-auto lg:mr-4">
+        <a href="#portfolio">Contact</a>
+      </li>
+      <li>
+        <a
+          href="/"
+          target="_blank"
+          className="btn btn-primary hover:text-white btn-outline text-white"
+          rel="noreferrer"
+        >
+          Resume
+        </a>
+      </li>
+    </>
+  );
   return (
-    <div class="navbar bg-base-100 lg:px-16 h-20 shadow-2xl">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
-          <ul
-            tabindex="0"
-            class="menu menu-compact dropdown-content mt-6 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li className="mt-2">
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li className="mt-2">
-              <NavLink to="/projects">Projects</NavLink>
-            </li>
-
-            <li className="mt-2">
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
-        </div>
-        <p class="btn btn-ghost normal-case text-xl">Rokibul Hasan Rokib</p>
+    <div className="navbar bg-base-100 mb-12 lg:mb-32 h-20 z-50 sticky top-0">
+      <div className="navbar-start">
+        <p className="normal-case text-2xl font-bold">Rokibul Hasan Rokib</p>
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0 font-bold">
-          <li className="mr-2">
-            <NavLink to="/">Home</NavLink>
+      <div className="dropdown flex navbar-end">
+        <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">
+          <svg
+            className="w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fillRule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+        </label>
+        <ul
+          tabIndex="0"
+          className="dropdown-content menu p-2  top-12 shadow bg-base-100"
+        >
+          <li className="mx-auto mb-1">
+            <a href="#home">Home</a>
           </li>
-          <li className="mr-2">
-            <NavLink to="/projects">Projects</NavLink>
+          <li className="mx-auto mb-1">
+            <a href="#services">Projects</a>
           </li>
-
-          <li className="mr-2">
-            <NavLink to="/contact">Contact</NavLink>
+          <li className="mx-auto mb-1">
+            <a href="#portfolio">Contact</a>
+          </li>
+          <li>
+            <a
+              href="/"
+              target="_blank"
+              className="btn btn-outline text-white btn-primary"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <ul class="menu menu-horizontal p-0 font-bold">
-          <li className="mr-2">
-            <p className="font-bold">Hire Me</p>
-          </li>
+      <div className="navbar-end hidden lg:flex">
+        <ul className="menu menu-horizontal p-0 font-bold text-xl">
+          {navbarItems}
         </ul>
       </div>
     </div>
