@@ -2,13 +2,16 @@ import React from "react";
 import TypewriterComponent from "typewriter-effect";
 const Banner = () => {
   return (
-    <div className="lg:mb-32 lg:px-28 w-full">
-      <div className="flex-col w-full mx-auto justify-around lg:flex-row-reverse">
+    <div className="hero lg:mb-32">
+      <div className="hero-content w-full mx-auto flex-col justify-between lg:flex-row">
         <div className="max-w-2xl">
           <p className="text-3xl">Hello! I am</p>
-          <h1 className="text-6xl font-extrabold my-3">Rokibul Hasan Rokib</h1>
+          <h1 className="lg:text-6xl text-4xl font-extrabold my-3">
+            Rokibul Hasan Rokib
+          </h1>
+
           <div className="text-3xl leading-relaxed mb-5">
-            <span className="font-semibold">
+            <span className="font-semibold text-primary">
               <TypewriterComponent
                 options={{
                   strings: ["MERN Stack Developer"],
@@ -19,6 +22,13 @@ const Banner = () => {
                 }}
               />
             </span>
+          </div>
+          <div className="mb-4">
+            <ul className="lg:flex mb-2 text-2xl">
+              <li className="mr-1">Web Developer | </li>
+              <li className="mr-1">Programmer | </li>
+              <li>Software Engineer </li>
+            </ul>
           </div>
           <a
             href="https://drive.google.com/file/d/1HjygocBdppINjJQ9laEe88QnDGac4Jz8/view?usp=sharing"

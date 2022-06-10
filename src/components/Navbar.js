@@ -25,9 +25,11 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 mb-12 lg:mb-32 h-20 z-50 sticky top-0">
+    <div className="navbar bg-base-100 mb-12 lg:mb-32 h-24 sticky top-0 z-50">
       <div className="navbar-start">
-        <p className="normal-case text-2xl font-bold">Rokibul Hasan Rokib</p>
+        <a class="text-2xl text-primary font-bold " href="/">
+          &lt;Rokibul Hasan Rokib/&gt;
+        </a>
       </div>
       <div className="dropdown flex navbar-end">
         <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">
