@@ -1,8 +1,7 @@
-import React from "react";
 import rokib from "../Images/rokib.png";
 const AboutMe = () => {
   return (
-    <div className="lg:my-44  my-12">
+    <div id="aboutme" className="lg:my-44  my-12">
       <div className="hero">
         <div className="hero-content w-full flex-col justify-between lg:flex-row-reverse">
           <img className="" src={rokib} class="lg:max-w-sm rounded-lg" alt="" />
@@ -18,7 +17,7 @@ const AboutMe = () => {
               available for any kind of job opportunity that suits my interests.
             </p>
             <a
-              href="https://drive.google.com/file/d/1HjygocBdppINjJQ9laEe88QnDGac4Jz8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1N2WoVMIoo_jNmySNHGYEJGzwV1N-_hSn/view?usp=sharing"
               target="_blank"
               className="btn btn-primary text-white mr-2"
               rel="noreferrer"

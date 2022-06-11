@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Prime Systems (MERN)",
+    "type": "Manufacturing Company Website",
+    "image": "https://i.ibb.co/TrvDZD4/Screenshot-2.png",
+    "description": "This is a full-stack responsive react project where here is a dashboard for users and admin. Users can order parts, pay with credit card, cancel orders and can make reviews.Admin can add and delete products,make an user to an admin, ship or cancel orders. Please check the github readme file for getting admin access.Each unique user has his/her own inventory where the user can manage only his/her own products",
+    "links": [
+      {
+        "title": "Live Site",
+        "url": "https://hi-tech-f766c.web.app/"
+      },
+      {
+        "title": "Client Side Code",
+        "url": "https://github.com/rokib97/prime-systems-client"
+      },
+      {
+        "title": "Server Side Code",
+        "url": "https://github.com/rokib97/prime-systems-server"
+      }
+    ],
+    "liveLink": {
+      "title": "Live Site",
+      "url": "https://hi-tech-f766c.web.app/"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Infinity Electronics (MERN)",
+    "type": "Inventory Manager Website",
+    "image": "https://i.ibb.co/Gskdhjg/Screenshot-3.png",
+    "description": "This is another full stack responsive web application to manage store inventory. Where users can add , update, and delete products and update products quantity. Users can sign up and login into the website using google and github, anyone can not go to some pages without login which is developed by React Router.Users can sign up and login into the website using google and email password which is developed by Firebase authentication.",
+    "links": [
+      {
+        "title": "Live Site",
+        "url": "https://infinity-electronics-gadget.web.app/"
+      },
+      {
+        "title": "Client Side Code",
+        "url": "https://github.com/rokib97/infinity-electronics-gadget-client"
+      },
+      {
+        "title": "Server Side Code",
+        "url": "https://github.com/rokib97/infinity-electronics-gadget-server"
+      }
+    ],
+    "liveLink": {
+      "title": "Live Site",
+      "url": "https://infinity-electronics-gadget.web.app/"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Health Coach (React)",
+    "type": "Independent Service Provider Website",
+    "image": "https://i.ibb.co/b21wqr1/Screenshot-4.png",
+    "description": "This is a simple react website with routing and firebase authentication. Users can log in using email-password or google pop-up. Users cannot access the checkout page without logging in.",
+    "links": [
+      {
+        "title": "Live Site",
+        "url": "https://health-coach-4ffb0.web.app/"
+      },
+      {
+        "title": "Client Side Code",
+        "url": "https://github.com/rokib97/health-coach"
+      }
+    ],
+    "liveLink": {
+      "title": "Live Site",
+      "url": "https://health-coach-4ffb0.web.app/"
+    }
+  }
+]

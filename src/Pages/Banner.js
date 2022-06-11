@@ -1,8 +1,7 @@
-import React from "react";
 import TypewriterComponent from "typewriter-effect";
 const Banner = () => {
   return (
-    <div className="hero lg:mb-32">
+    <div id="home" className="hero lg:mb-32">
       <div className="hero-content w-full mx-auto flex-col justify-between lg:flex-row">
         <div className="max-w-2xl">
           <p className="text-3xl">Hello! I am</p>
@@ -31,7 +30,7 @@ const Banner = () => {
             </ul>
           </div>
           <a
-            href="https://drive.google.com/file/d/1HjygocBdppINjJQ9laEe88QnDGac4Jz8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1N2WoVMIoo_jNmySNHGYEJGzwV1N-_hSn/view?usp=sharing"
             target="_blank"
             className="btn btn-primary text-white mr-2"
             rel="noreferrer"

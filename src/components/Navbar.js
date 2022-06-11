@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => {
   const navbarItems = (
     <>
@@ -7,19 +5,19 @@ const Navbar = () => {
         <a href="#home">Home</a>
       </li>
       <li className="mx-auto lg:mr-4">
-        <a href="#services">Projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li className="mx-auto lg:mr-4">
-        <a href="#portfolio">Contact</a>
+        <a href="#contacts">Contact</a>
       </li>
       <li>
         <a
-          href="/"
+          href="https://drive.google.com/file/d/1N2WoVMIoo_jNmySNHGYEJGzwV1N-_hSn/view?usp=sharing"
           target="_blank"
-          className="btn btn-primary hover:text-white btn-outline text-white"
           rel="noreferrer"
+          className="btn btn-primary hover:text-white btn-outline text-white"
         >
-          Resume
+          Get Resume
         </a>
       </li>
     </>
@@ -61,12 +59,12 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="https://drive.google.com/file/d/1N2WoVMIoo_jNmySNHGYEJGzwV1N-_hSn/view?usp=sharing"
               target="_blank"
-              className="btn btn-outline text-white btn-primary"
               rel="noreferrer"
+              className="btn btn-primary hover:text-white btn-outline text-white"
             >
-              Resume
+              Get Resume
             </a>
           </li>
         </ul>
